@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/library.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    header{
+        background-color: rgba(250, 235, 215, 0.965);
+        margin: 0;
+        text-align: center;
+        h1{
+            margin: 0;
+            padding: 5px 0px 0px 0px;
+        }
+        p{
+            padding: 0px 0px 5px 0px;
+        }
+    }
+    main{
+        .container{
+            display: flex;
+            flex-direction: column;
+            div{
+                background-color:  rgba(250, 235, 215, 0.965);
+                align-text: center;
+                align-self: center;
+                width: 25%;
+                border-radius: 3px;
+                box-shadow: 10px 10px 3px gray;
+                h2{
+                    text-align: center;
+                }
+            }
+        }
+        article{
+            section{
+                .title{
+                    margin: 5px;
+                    background-color:  rgba(250, 235, 215, 0.965);
+                    width: 25%;
+                    border-radius: 3px;
+                    box-shadow: 10px 10px 3px gray;
+                    h3{
+                        padding: 5px 0px 0px 5px;
+                    }
+                    p{
+                        padding: 0px 0px 5px 5px;
+                    }
+                }
+                .cover-art{
+                    img{
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}
+
